@@ -1,0 +1,26 @@
+{
+  "name": "curso_node_clear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilherme-Verrange/node.js_backend_clear.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilherme-Verrange/node.js_backend_clear/issues"
+  },
+  "homepage": "https://github.com/Guilherme-Verrange/node.js_backend_clear#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "consign": "^0.1.6",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "nedb": "^1.8.0"
+  }
+}
