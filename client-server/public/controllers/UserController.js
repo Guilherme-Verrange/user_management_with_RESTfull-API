@@ -203,6 +203,10 @@ class UserController {
 
         data.users.forEach(dataUser => {
           let user = new User();
+
+          user.loadFromJSON(dataUser);~
+          this.addLine(user);
+
         });
 
       });
