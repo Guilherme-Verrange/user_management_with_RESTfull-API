@@ -7,26 +7,25 @@ var client = restify.createJsonClient({
     url: 'http://localhost:4000'
 })
 
-/* GET users listing. */
 router.get('/', function(req, res, next) {
 
     client.get('/users', function(err, request, response, obj) {
         assert.ifError(err);
 
-       res.json(obj);
+        res.json(obj);
     });
 
 });
 
 router.get('/:id', function(req, res, next) {
-  
-    client.get(`/users/${req.params.id}`, function (err, request, response, obj){
-      assert.ifError(err);
-   
-      res.json(obj);
+
+    client.get(`/users/${req.params.id}`, function(err, request, response, obj) {
+        assert.ifError(err);
+
+        res.json(obj);
     });
-   
-  });
+
+});
 
 router.put('/:id', function(req, res, next) {
 
