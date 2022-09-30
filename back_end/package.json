@@ -1,7 +1,6 @@
 {
   "name": "curso_node_clear",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +21,6 @@
     "express": "^4.18.1",
     "express-validator": "^6.14.2",
     "nedb": "^1.8.0"
-  }
+  },
+  "description": ""
 }
